@@ -1,0 +1,38 @@
+# linear actuator
+startPos = 0.2801
+stepWidth = -0.0050
+nSlices = 1
+endPos = 0.2801
+
+# NMR setup
+coilName = 22mm Image
+enable1D = 0
+enable3D = 0
+enableLift = 1
+magnetTargetTemperature = 0.00
+
+# NMR measurement
+measurementType = CPMG_Lift
+echoTime = 0.00005000
+numEchoes = 100000
+ieTime = 25.000000
+numSteadyState = 0.000000
+numAverages = 32
+thicknessSlice = Inf
+gradAmpSlice = 0.000000
+sampleName = "495_Boz20_dry"
+description = ""
+txFrequency = 8962500
+excitationPulseDuration = 0.00001660
+excitationPulseAmplitude = 0.000353
+excitationPulseAngle = 90.00
+refocusingPulseDuration = 0.00001660
+refocusingPulseAmplitude = 0.000707
+refocusingPulseAngle = 180.00
+usePhaseCycle = 1
+acquisitionTime = 0.00002200
+sampleFrequency = 1000000.000
+nSamples = 22
+
+# evaluation
+phaseCorrection = 1
